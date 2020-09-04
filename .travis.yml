@@ -1,7 +1,10 @@
 language: java
-jdk:
-    - oraclejdk11
-    - openjdk11
+jdk: oraclejdk11
+dist: trusty
+before_install:
+    - chmod +x mvnw
+install: true
+script: mvn clean package
 
 notifications:
     email: marcfreir@yandex.com
