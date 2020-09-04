@@ -4,7 +4,15 @@ dist: trusty
 before_install:
     - chmod +x mvnw
 install: true
-script: mvn clean package
+# script: mvn clean package
+jobs:
+    include:
+        - stage: test
+        script: ./test 1
+        - # stage name not required, will continue to use `test`
+        script: ./test 2
+        - stage: deploy
+        script: ./deploy
 
 notifications:
     email: marcfreir@yandex.com
