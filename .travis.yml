@@ -8,8 +8,6 @@ jdk:
 matrix:
     allow_failures:
         - jdk: openjdk-ea
-
-matrix:
     include:
         - jdk: openjdk10
         before_install:
