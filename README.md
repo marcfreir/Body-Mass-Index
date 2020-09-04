@@ -1,7 +1,9 @@
 # <div align="center">Body Mass Index</div>
 <div align="center">Body Mass Index Calculator in Java</div>
 
-<div align="center"><img src="https://github.com/marcfreir/Body-Mass-Index/blob/master/2017-07-11.png" alt="BMI" /></div>
+<br />
+
+<div align="center"><img src="./_res/preview_2017-07-11.png" alt="BMI" /></div>
 
 This is just an example of calculator for the Body Mass Index.
 
