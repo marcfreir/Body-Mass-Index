@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BMI_S;
-import java.awt.Color;
+package main.java.BMI_S;
+//import java.awt.Color;
 
 /**
  *
- * @author marco
+ * @author marc
  */
 public class Body_Mass_Index_System extends javax.swing.JFrame {
 
